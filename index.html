@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body data-theme="silver">
+  <div class="ambient-glow"></div>
+
   <header class="navbar">
     <div class="container nav-inner">
       <a href="index.html" class="brand">TUASEEN<span>.DEV</span></a>
@@ -24,9 +26,11 @@
     <section class="hero">
       <div class="badge">BS COMPUTER SCIENCE • LAHORE GARRISON UNIVERSITY</div>
       <h1>Tuaseen Ahmed Khan Durrani</h1>
-      <p class="subtitle">Computer Enthusiast &amp; Aspiring Cybersecurity Specialist</p>
-      <div class="card about-card">
-        <h2>// ABOUT</h2>
+      <p class="subtitle terminal-text">Computer Enthusiast &amp; Aspiring Cybersecurity Specialist</p>
+      
+      <div class="card about-card glass-panel">
+        <div class="card-header-dot"><span></span><span></span><span></span></div>
+        <h2>// SYSTEM_PROFILE</h2>
         <p>
           A Computer Science Major student whose primary interest lies in the field of Cyber Security. 
           Currently completing a BS in Computer Science from Lahore Garrison University alongside Google, HP, 
@@ -38,22 +42,22 @@
     <section class="section">
       <h2 class="section-title">EXPLORE DOMAINS</h2>
       <div class="grid-3">
-        <a href="computer-science.html" class="portal-card portal-cs">
-          <span class="portal-tag">01 // DEVELOPMENT</span>
+        <a href="computer-science.html" class="portal-card portal-cs glass-panel">
+          <div class="portal-tag">01 // DEVELOPMENT</div>
           <h3>Computer Science</h3>
           <p>14 C++ &amp; Algorithmic Systems, Data Structures, and Core Programming Foundations.</p>
           <span class="portal-cta">Open CS Archive →</span>
         </a>
 
-        <a href="cybersecurity.html" class="portal-card portal-cyber">
-          <span class="portal-tag">02 // INVESTIGATION &amp; INTEL</span>
+        <a href="cybersecurity.html" class="portal-card portal-cyber glass-panel">
+          <div class="portal-tag">02 // INTEL &amp; FORENSICS</div>
           <h3>Cybersecurity</h3>
           <p>Case Dossier: Google, PKCERT, HP &amp; Vanderbilt Credentials, Phishing &amp; AI Security.</p>
           <span class="portal-cta">Access Case Files →</span>
         </a>
 
-        <a href="video-editing.html" class="portal-card portal-video">
-          <span class="portal-tag">03 // POST-PRODUCTION</span>
+        <a href="video-editing.html" class="portal-card portal-video glass-panel">
+          <div class="portal-tag">03 // POST-PRODUCTION</div>
           <h3>Video Editing</h3>
           <p>Event Productions, Farewell Films, and Punjab Higher Education Commission Certification.</p>
           <span class="portal-cta">Enter Editing Suite →</span>
@@ -61,34 +65,73 @@
       </div>
     </section>
 
+    <!-- Visual Icon Cards for Connect Hub -->
     <section class="section" id="connect">
       <h2 class="section-title">VERIFIED NETWORK &amp; PROFILES</h2>
-      <div class="card connect-hub">
-        <div class="connect-group">
-          <h3>Professional &amp; Direct</h3>
-          <div class="link-pills">
-            <a href="mailto:tuaseendurrani17@gmail.com" class="pill">Email: tuaseendurrani17@gmail.com</a>
-            <a href="https://www.linkedin.com/in/tuaseen-durrani-798b612b9/" target="_blank" rel="noopener" class="pill">LinkedIn</a>
-            <a href="https://github.com/tuaseendurrani" target="_blank" rel="noopener" class="pill">GitHub</a>
+      <div class="grid-connect">
+        <a href="https://github.com/tuaseendurrani" target="_blank" rel="noopener" class="connect-node glass-panel">
+          <div class="node-icon github-icon">GH</div>
+          <div class="node-info">
+            <h4>GitHub</h4>
+            <span>@tuaseendurrani</span>
           </div>
-        </div>
+        </a>
 
-        <div class="connect-group">
-          <h3>Security Labs &amp; Competitive</h3>
-          <div class="link-pills">
-            <a href="https://tryhackme.com/p/SilentSD17" target="_blank" rel="noopener" class="pill">TryHackMe (SilentSD17)</a>
-            <a href="https://profile.hackthebox.com/profile/019caa08-9d41-73cd-8e56-18c1669dc7aa" target="_blank" rel="noopener" class="pill">HackTheBox</a>
-            <a href="https://www.hackerrank.com/profile/tuaseendurrani" target="_blank" rel="noopener" class="pill">HackerRank</a>
+        <a href="https://www.linkedin.com/in/tuaseen-durrani-798b612b9/" target="_blank" rel="noopener" class="connect-node glass-panel">
+          <div class="node-icon linkedin-icon">IN</div>
+          <div class="node-info">
+            <h4>LinkedIn</h4>
+            <span>Professional Network</span>
           </div>
-        </div>
+        </a>
 
-        <div class="connect-group">
-          <h3>Social &amp; Strategy</h3>
-          <div class="link-pills">
-            <a href="https://www.instagram.com/_ak.durrani/" target="_blank" rel="noopener" class="pill">Instagram (@_ak.durrani)</a>
-            <a href="https://www.chess.com/member/delmun_durrani" target="_blank" rel="noopener" class="pill">Chess.com (delmun_durrani)</a>
+        <a href="https://tryhackme.com/p/SilentSD17" target="_blank" rel="noopener" class="connect-node glass-panel">
+          <div class="node-icon thm-icon">THM</div>
+          <div class="node-info">
+            <h4>TryHackMe</h4>
+            <span>SilentSD17</span>
           </div>
-        </div>
+        </a>
+
+        <a href="https://profile.hackthebox.com/profile/019caa08-9d41-73cd-8e56-18c1669dc7aa" target="_blank" rel="noopener" class="connect-node glass-panel">
+          <div class="node-icon htb-icon">HTB</div>
+          <div class="node-info">
+            <h4>HackTheBox</h4>
+            <span>Security Labs</span>
+          </div>
+        </a>
+
+        <a href="https://www.hackerrank.com/profile/tuaseendurrani" target="_blank" rel="noopener" class="connect-node glass-panel">
+          <div class="node-icon hr-icon">HR</div>
+          <div class="node-info">
+            <h4>HackerRank</h4>
+            <span>Algorithmic Profile</span>
+          </div>
+        </a>
+
+        <a href="mailto:tuaseendurrani17@gmail.com" class="connect-node glass-panel">
+          <div class="node-icon mail-icon">@</div>
+          <div class="node-info">
+            <h4>Email Contact</h4>
+            <span>tuaseendurrani17@gmail.com</span>
+          </div>
+        </a>
+
+        <a href="https://www.instagram.com/_ak.durrani/" target="_blank" rel="noopener" class="connect-node glass-panel">
+          <div class="node-icon ig-icon">IG</div>
+          <div class="node-info">
+            <h4>Instagram</h4>
+            <span>@_ak.durrani</span>
+          </div>
+        </a>
+
+        <a href="https://www.chess.com/member/delmun_durrani" target="_blank" rel="noopener" class="connect-node glass-panel">
+          <div class="node-icon chess-icon">♔</div>
+          <div class="node-info">
+            <h4>Chess.com</h4>
+            <span>delmun_durrani</span>
+          </div>
+        </a>
       </div>
     </section>
   </main>
